@@ -1,0 +1,294 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("images/background.jpg");
+    background-position: center center;
+    /* height: 690.18px; */
+    height: 546px;
+    width: 1264.67px;
+    background-size: cover;
+    position: relative;
+}
+.main .box{
+    /* height: 690.18px; */
+    height: 544px;
+    width: 1264.67px;
+    opacity: 0.70;
+    position: absolute;
+    background-color: black;
+    
+    top: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    height: 88px;
+    width: 984.67px;
+}
+#logo {
+    height: 40px;
+    width: 148px;
+    color: red;
+    position: relative;
+    z-index: 10;
+
+}
+#sign{
+    height: 32px;
+    width: 76.91px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+    z-index: 10;
+    border: none;
+    cursor: pointer;
+
+}
+#lang{
+    margin-right: 5px;
+    height: 32px;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 0.1px solid white;
+    color: white;
+    position: relative;
+    z-index: 10;
+
+}
+.center{
+    margin-top: 15vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 15px;
+    text-align: center;
+}
+.center> :first-child{
+    font-weight: bolder;
+    font-size: 60px;
+}
+.center> :nth-child(2){
+    font-weight: bolder;
+    font-size: 60px;
+}
+.center> :nth-child(3){
+    font-weight: bolder;
+    font-size: 20px;
+}
+.center> :nth-child(4){
+    font-size: 18px;
+}
+.sel{
+     height: 32px;
+     border-radius: 5px;
+    font-size: 12px;
+    z-index: 10;
+    margin-right: 5px;
+    width: 100px;
+    background-color: transparent;   
+    color: white;
+    position: relative;
+    z-index: 10;
+}
+.ib{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+#input{
+    height: 53px;
+    width: 400px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: large;
+    color: white;
+    opacity: 0.65;
+}
+#button{
+    height: 56px;
+    width: 213.25px;
+    background-color: red;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+/* .sep{ */
+    /* background-color: black;
+} */
+.seperation{
+    height: 4px;
+    margin-top: 40px;
+    background-color: rgb(228, 7, 77);
+}
+.mainsep{
+    display: flex;
+    justify-content: center;
+}
+.trend{
+    height: 2171px;
+    width: 969px;
+    /* background-color: white; */
+
+}
+h2{
+    color: white;
+    margin-top: 60px;
+    font-family: sans-serif;
+    position: relative;
+    /* color: white; */
+    /* z-index: 10; */
+}
+.ul1{
+    margin-top: 25px;
+    color: white;
+    display:flex;
+    /* background-color: chocolate; */
+    justify-content: space-around;
+}
+.lone{
+    height: 252px;
+    width: 180px;
+    background-color: chocolate;
+    border-radius: 10px;
+}
+
+#l1{
+    background-image: url("images/sq.jpg");
+    background-size: cover;
+}
+#l2{
+    background-image: url("images/kapil.jpeg");
+    background-size: cover;
+}
+#l3{
+    background-image: url("images/raid.jpeg");
+    background-size: cover;
+}
+#l4{
+    background-image: url("images/fr.jpeg");
+    background-size: cover;
+}
+
+
+.u2{
+    margin-top: 25px;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+}
+.ltwo{
+    height: 329px;
+    width: 230px;
+    background-color: rgb(44, 5, 80);
+    border-radius: 10px;
+}
+
+#l5{
+    
+}
+#l6{
+    
+}
+#l7{
+   
+}
+#l8{
+    
+}
+
+.faq{
+    width: 969px;
+    height: 80px;
+    background-color: white;
+    opacity: 0.18;
+    margin-top: 10px;
+    
+}
+
+.h3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.loginagn{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 16px;
+
+}
+
+#input2{
+    height: 56px;
+    width: 562px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: large;
+    color: white;
+    opacity: 0.65;
+}
+#button2{
+    height: 56px;
+    width: 214px;
+    background-color: red;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+footer{
+    height: 470px;
+    width: 969px;
+    /* background-color: white; */
+    margin-top: 80px;
+}
+#qn{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.help{
+    color: white;
+    height: 132px;
+    width: 969px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding-right: 150px;
+    margin-top: 50px;
+    margin-bottom: -35px;
+}
+#last{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    font-size: 14px;
+}
